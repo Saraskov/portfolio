@@ -45,12 +45,10 @@
 
 $(document).ready(function(){
   $("#alle").click(function(){
-    $("1sp").show();
+    $("hide").show();
   });
   $("#1_semester").click(function(){
-    $("skjul").hide();
-	$("#tester3").hide();
-	$("#tester2").show();
+    $("hide").hide();
   });
   $("#2_semester").click(function(){
     $("#tester2").hide();

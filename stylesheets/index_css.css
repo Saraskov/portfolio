@@ -132,8 +132,8 @@ i {
 /*Project gallery section*/
 
 #tester {
-	height: 1000px;
 	background-color: deeppink;
-	padding-top: 100px;
-	width: 70%;
+	padding: 100px 0;
+	width: 100%;
+	text-align: center;
 }
