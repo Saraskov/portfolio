@@ -43,16 +43,34 @@
 
             typing();
 
-$(document).ready(function(){
-  $("#alle").click(function(){
-    $("hide").show();
-  });
-  $("#1_semester").click(function(){
-    $("hide").hide();
-  });
-  $("#2_semester").click(function(){
-    $("#tester2").hide();
-	$("#tester3").show();
-	$("#tester1").show();
-  });
+
+//Javascript for the image gallery navgation
+//Copied from a Bootstrap snippet example
+//https://bootsnipp.com/snippets/GzKKE
+
+		$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
 });
