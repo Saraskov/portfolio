@@ -1,6 +1,6 @@
 // JavaScript Document
  var heading = document.querySelector("h1");
-                var data = ["Hej jeg er Sara","Fedt fedt fedt","Mere tekst","Det er super nice","Wuuup wup","Jaaaja","Jeg elsker Stefan"];
+                var data = ["<h1>Hej jeg er Sara</h1>","<h1>Velkommen til mit portfolio</h1>","<p>Multimediestuderende</p>","<p> Interesseret i kodning og design</p>"];
                 var j = 0;
                 var i = 0;
     
