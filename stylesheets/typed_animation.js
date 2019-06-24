@@ -1,6 +1,7 @@
 // JavaScript Document
+//Script for the Velkommen text at index.html
  var heading = document.querySelector("h1");
-                var data = ["<h1>Hej jeg er Sara</h1>","<h1>Velkommen til mit portfolio</h1>","<p>Multimediestuderende</p>","<p> Interesseret i kodning og design</p>"];
+                var data = ["<h1>Hej jeg er Sara</h1>","<h1>Velkommen til mit portfolio</h1>","<p>Multimediestuderende</p>"];
                 var j = 0;
                 var i = 0;
     
