@@ -112,25 +112,8 @@ i {
 
 
 /*Project gallery section*/
-.container {
-	max-width: 1100px;
-}
-
 
 .gallery_product {
 	max-height: 360px;
 	max-width: 360px;
-}
-
-.btn, .btn-default, .filter-button {
-	font-family: 'Raleway', sans-serif;
-	border: none;
-}
-
-/*Change the style of the buttons*/
-.filter-button{
-	border: none !important;
-}
-.filter-button:active, .filter-button:visited {
-	background-color: rgb(46, 46, 46);
 }
