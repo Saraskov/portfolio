@@ -1,10 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
-.imagebox, .imagebox2 {
+.imagebox {
 	background-color: rgba(196,224,164,1);
 	padding: 2% 10%;
 	margin-bottom: 3em;
+}
+
+.imagebox2 {
+	background-color: rgba(196,224,164,1);
+	padding: 2% 10%;
+	margin-bottom: 100px;
 }
 
 		
@@ -21,6 +27,7 @@
 .row {
 	margin-bottom: 3em;
 }
+
 
 /*Arrows for next and previous projects*/
 .next_nav, .pre_nav {
@@ -74,10 +81,9 @@
 }
 
 .next_nav a {
-	width: 50%;
+	width: 140px;
 	float: left;
-	padding: 10% 0;
-	margin-left: 40%;
+	padding: 33px 0px 33px 70px;
 	visibility: hidden;
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -90,6 +96,11 @@
 
 .next_nav:hover a, .pre_nav:hover a {
 	visibility: visible;
+}
+
+/*Ekstra class when the text fill up 3 lines instead of 2*/
+.three_line {
+	padding: 23px 0px 23px 70px !important;
 }
 
 @media screen and (max-width: 767px){
